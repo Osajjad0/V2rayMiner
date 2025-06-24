@@ -562,7 +562,7 @@ function generateEndofConfiguration() {
 }
 
 $source = "HiNMiner";
-$configsList = generateHiddifyTags() . "\n" . generateUpdateTime() . getTelegramChannelConfigs("HiNMiner") . generateEndofConfiguration();
+$configsList = generateHiddifyTags() . "\n" . generateUpdateTime() . getTelegramChannelConfigs("proxyy_1404") . generateEndofConfiguration();
 
 file_put_contents("Miner/normal", $configsList);
 file_put_contents("Miner/base64", base64_encode($configsList));
